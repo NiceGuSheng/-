@@ -1,0 +1,8 @@
+/**app.wxss**/
+
+/* 通过page技巧定义全局的样式 */
+/* 不是所有的样式都能继承 */
+page{
+  font-family: "PingFangSC-Thin";
+  font-size: 32rpx;
+}

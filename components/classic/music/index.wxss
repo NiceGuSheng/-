@@ -1,0 +1,51 @@
+.classic-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.classic-img {
+  margin-top: 60rpx;
+  border-radius: 70%;
+  width: 422rpx;
+  height: 422rpx;
+  overflow: hidden;
+}
+
+.player-img {
+  position: relative;
+  bottom: 271rpx;
+  width: 120rpx;
+  height: 120rpx;
+}
+.tag {
+  position: relative;
+  bottom: 160rpx;
+  right: 310rpx;
+  width: 44rpx;
+  height: 127rpx;
+}
+
+.content {
+  display: block;
+  margin-top: -90rpx;
+  max-width: 550rpx;
+  font-size: 36rpx;
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  transform: rotate(360deg);
+  animation: rotation 12s linear infinite;
+  -moz-animation: rotation 12s linear infinite;
+  -webkit-animation: rotation 12s linear infinite;
+  -o-animation: rotation 12s linear infinite;
+}

@@ -1,0 +1,5 @@
+<view bind:tap="onTap" class="container">
+  <text>{{text}}</text>
+  <!-- 插槽 -->
+  <slot name="after"></slot>
+</view>

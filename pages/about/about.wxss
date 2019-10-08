@@ -1,0 +1,7 @@
+.container{
+  display: flex;
+  justify-content: center;
+}
+.container image{
+  height: 1300rpx;
+}

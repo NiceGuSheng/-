@@ -1,0 +1,2 @@
+/* css样式复用   ps:js样式复用用behavior*/
+@import "../common.wxss";  
